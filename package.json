@@ -2,6 +2,7 @@
   "name": "choomame-custom-link-list",
   "version": "1.0.0",
   "scripts": {
+    "lint": "eslint src --ext json5",
     "format": "prettier --write src",
     "prepare": "husky install"
   },
@@ -13,8 +14,9 @@
   "homepage": "https://github.com/eetann/choomame-custom-link-list#readme",
   "devDependencies": {
     "eslint": "^8.28.0",
+    "eslint-plugin-jsonc": "^2.5.0",
     "eslint-plugin-yml": "^1.2.0",
-    "prettier": "2.7.1",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "prettier": "2.7.1"
   }
 }

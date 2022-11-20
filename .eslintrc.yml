@@ -1,10 +1,10 @@
 env:
   browser: true
   es2021: true
-extends: 
+extends:
   - eslint:recommended
-  - plugin:yml/standard
-  - plugin:yml/prettier
+  - plugin:jsonc/recommended-with-json5
+  - plugin:jsonc/prettier
 parserOptions:
   ecmaVersion: latest
   sourceType: module
