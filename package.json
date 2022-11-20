@@ -2,7 +2,8 @@
   "name": "choomame-custom-link-list",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write src",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,7 @@
   "devDependencies": {
     "eslint": "^8.28.0",
     "eslint-plugin-yml": "^1.2.0",
-    "prettier": "2.7.1"
+    "prettier": "2.7.1",
+    "husky": "^8.0.0"
   }
 }
