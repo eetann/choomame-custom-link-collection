@@ -1,8 +1,9 @@
 {
   id: "developer",
   name: "developer list",
-  items: {
-    JavaScriptEnDocs: {
+  items: [
+    {
+      id: "javascript-en-docs",
       target: "JavaScript en",
       hit: "javascript|js",
       links: [
@@ -16,7 +17,8 @@
         },
       ],
     },
-    TypeScriptEnDocs: {
+    {
+      id: "typescript-en-docs",
       target: "TypeScript",
       hit: "typescript|ts",
       links: [
@@ -30,5 +32,5 @@
         },
       ],
     },
-  },
+  ],
 }
