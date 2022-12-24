@@ -1,36 +1,34 @@
 {
   id: "developer",
   name: "developer list",
-  items: [
+  links: [
     {
-      id: "javascript-en-docs",
-      target: "JavaScript en",
-      hit: "javascript|js",
-      links: [
-        {
-          kind: "Reference",
-          url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        },
-        {
-          kind: "Query",
-          url: "https://developer.mozilla.org/en-US/search?q=%s",
-        },
-      ],
+      id: "javascript-en-doc",
+      name: "Reference",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      match: "javascript|js",
+      group: "JavaScript",
     },
     {
-      id: "typescript-en-docs",
-      target: "TypeScript",
-      hit: "typescript|ts",
-      links: [
-        {
-          kind: "Homepage",
-          url: "https://www.typescriptlang.org",
-        },
-        {
-          kind: "Reference",
-          url: "https://www.typescriptlang.org/docs/",
-        },
-      ],
+      id: "javascript-en-query",
+      name: "Reference",
+      url: "https://developer.mozilla.org/en-US/search?q=%s",
+      match: "javascript|js",
+      group: "JavaScript",
+    },
+    {
+      id: "typescript-en-homepage",
+      name: "Homepage",
+      url: "https://www.typescriptlang.org",
+      match: "typescript|ts",
+      group: "TypeScript",
+    },
+    {
+      id: "typescript-en-doc",
+      name: "Reference",
+      url: "https://www.typescriptlang.org/docs/",
+      match: "typescript|ts",
+      group: "TypeScript",
     },
   ],
 }
