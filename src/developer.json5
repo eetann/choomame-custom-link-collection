@@ -11,7 +11,7 @@
     },
     {
       id: "javascript-en-query",
-      name: "Reference",
+      name: "Search in Reference",
       url: "https://developer.mozilla.org/en-US/search?q=%s",
       match: "javascript|js",
       group: "JavaScript",
