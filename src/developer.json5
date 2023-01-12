@@ -3,28 +3,28 @@
   name: "developer list",
   links: [
     {
-      id: "javascript-en-doc",
+      id: "javascript-doc",
       name: "Reference",
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
       match: "javascript|js",
       group: "JavaScript",
     },
     {
-      id: "javascript-en-query",
+      id: "javascript-query",
       name: "Search in Reference",
       url: "https://developer.mozilla.org/en-US/search?q=%s",
       match: "javascript|js",
       group: "JavaScript",
     },
     {
-      id: "typescript-en-homepage",
+      id: "typescript-homepage",
       name: "Homepage",
       url: "https://www.typescriptlang.org",
       match: "typescript|ts",
       group: "TypeScript",
     },
     {
-      id: "typescript-en-doc",
+      id: "typescript-doc",
       name: "Reference",
       url: "https://www.typescriptlang.org/docs/",
       match: "typescript|ts",

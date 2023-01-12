@@ -1,0 +1,20 @@
+{
+  id: "developer-japanese",
+  name: "developer(Japanese)",
+  links: [
+    {
+      id: "javascript-doc",
+      name: "Reference🇯🇵",
+      url: "https://developer.mozilla.org/ja/docs/Web/JavaScript",
+      match: "javascript|js",
+      group: "JavaScript",
+    },
+    {
+      id: "javascript-query",
+      name: "Search in Reference🇯🇵",
+      url: "https://developer.mozilla.org/ja/search?q=%s",
+      match: "javascript|js",
+      group: "JavaScript",
+    },
+  ],
+}
