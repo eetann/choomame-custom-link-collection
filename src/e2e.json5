@@ -1,0 +1,35 @@
+{
+  // This is only used by Choomame developers for E2E test of onInstalled
+  id: "chroomame-e2e",
+  name: "E2E",
+  links: [
+    {
+      id: "javascript-doc",
+      name: "Reference",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      match: "javascript|js",
+      group: "JavaScript",
+    },
+    {
+      id: "javascript-query",
+      name: "Search in Reference",
+      url: "https://developer.mozilla.org/en-US/search?q=%s",
+      match: "javascript|js",
+      group: "JavaScript",
+    },
+    {
+      id: "typescript-homepage",
+      name: "Homepage",
+      url: "https://www.typescriptlang.org",
+      match: "typescript|ts",
+      group: "TypeScript",
+    },
+    {
+      id: "typescript-doc",
+      name: "Reference",
+      url: "https://www.typescriptlang.org/docs/",
+      match: "typescript|ts",
+      group: "TypeScript",
+    },
+  ],
+}
