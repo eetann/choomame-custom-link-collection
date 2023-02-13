@@ -2,7 +2,7 @@
   // This is only used by Choomame developers for E2E test of onInstalled
   id: "chroomame-e2e",
   name: "E2E",
-  links: [
+  items: [
     {
       id: "javascript-doc",
       name: "Reference",

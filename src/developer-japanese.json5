@@ -1,7 +1,7 @@
 {
   id: "developer-japanese",
   name: "developer(Japanese)",
-  links: [
+  items: [
     {
       id: "javascript-doc",
       name: "Reference🇯🇵",

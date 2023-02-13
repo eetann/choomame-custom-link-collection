@@ -1,1 +1,1 @@
-# choomame-custom-link-list
+# choomame-custom-link-collection

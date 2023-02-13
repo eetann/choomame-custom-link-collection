@@ -1,7 +1,7 @@
 {
   id: "developer",
   name: "developer list",
-  links: [
+  items: [
     {
       id: "javascript-doc",
       name: "Reference",

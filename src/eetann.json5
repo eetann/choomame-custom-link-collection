@@ -1,7 +1,7 @@
 {
   id: "eetann",
   name: "eetann",
-  links: [
+  items: [
     {
       id: "portfolio",
       name: "Portfolio",
