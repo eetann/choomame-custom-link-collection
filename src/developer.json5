@@ -68,7 +68,7 @@
     {
       "id": "playwright-query",
       "name": "Search in Docs",
-      "url": "https://playwright.dev/search?q=api",
+      "url": "https://playwright.dev/search?q=%s",
       "match": "playwright",
       "group": "Playwright"
     },
