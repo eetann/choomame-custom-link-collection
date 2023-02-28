@@ -4,14 +4,14 @@
   items: [
     {
       id: "javascript-doc",
-      name: "Reference",
+      name: "Docs",
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
       match: "javascript|js",
       group: "JavaScript",
     },
     {
       id: "javascript-query",
-      name: "Search in Reference",
+      name: "Search in Docs",
       url: "https://developer.mozilla.org/en-US/search?q=%s",
       match: "javascript|js",
       group: "JavaScript",
@@ -25,10 +25,52 @@
     },
     {
       id: "typescript-doc",
-      name: "Reference",
+      name: "Docs",
       url: "https://www.typescriptlang.org/docs/",
       match: "typescript|ts",
       group: "TypeScript",
+    },
+    {
+      id: "chrome-extensions-doc",
+      name: "Docs",
+      url: "https://developer.chrome.com/docs/extensions/",
+      match: "chrome extension",
+      group: "Chrome Extension",
+    },
+    {
+      id: "chrome-extensions-api",
+      name: "API Reference",
+      url: "https://developer.chrome.com/docs/extensions/reference/",
+      match: "chrome extension",
+      group: "Chrome Extension",
+    },
+    {
+      id: "chrome-web-store-publish",
+      name: "Publishing",
+      url: "https://developer.chrome.com/docs/webstore/publish/",
+      match: "chrome extension",
+      group: "Chrome Extension",
+    },
+    {
+      "id": "playwright-homepage",
+      "name": "Homepage",
+      "url": "https://playwright.dev/",
+      "match": "playwright",
+      "group": "Playwright"
+    },
+    {
+      "id": "playwright-doc",
+      "name": "Docs",
+      "url": "https://playwright.dev/docs/api",
+      "match": "playwright",
+      "group": "Playwright"
+    },
+    {
+      "id": "playwright-query",
+      "name": "Search in Docs",
+      "url": "https://playwright.dev/search?q=api",
+      "match": "playwright",
+      "group": "Playwright"
     },
   ],
 }
