@@ -1,0 +1,4 @@
+[submodule "choomame"]
+	path = choomame
+	url = git@github.com:eetann/choomame.git
+	branch = dev
