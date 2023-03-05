@@ -86,5 +86,12 @@
       match: "react(-|\\s)icons?",
       group: "React Icons",
     },
+    {
+      id: "chakraui-homepage",
+      name: "Homepage",
+      url: "https://chakra-ui.com/",
+      match: "chakra(-|\\s)?(ui)?",
+      group: "Chakra UI",
+    },
   ],
 }
