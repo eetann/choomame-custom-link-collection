@@ -40,13 +40,18 @@ The URL of the link. If the site has a search feature, you can insert queries in
 
 `url` must not exceed 200 characters.
 
-## For Collection developers
-
-### What is Collection?
+## What is Collection?
 
 `Collection` is a JSON5 format file that collects Custom Link items. When a user registers the URL that returns JSON5 in the settings, Custom Link items written in that file can be registered at once.
 
 The registered JSON5 is automatically fetched and updated about once a day.
+
+`Collection` prepared in this repository is as follows.
+
+- [For Developer](https://raw.githubusercontent.com/eetann/choomame-custom-link-collection/main/src/developer.json5)
+- [For Japanese Developer](https://raw.githubusercontent.com/eetann/choomame-custom-link-collection/main/src/developer-japanese.json5)
+
+## For Collection developers
 
 The components of Custom Link Collection are as follows.
 
