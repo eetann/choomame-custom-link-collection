@@ -1,0 +1,48 @@
+{
+  id: "google-cloud",
+  name: "Google Cloud",
+  items: [
+    {
+      id: "firebase-homepage",
+      group: "Firebase",
+      match: "firebase",
+      name: "Homepage",
+      url: "https://firebase.google.com",
+    },
+    {
+      id: "firebase-docs",
+      group: "Firebase",
+      match: "firebase",
+      name: "Docs",
+      url: "https://firebase.google.com/docs",
+    },
+    {
+      id: "firebase-query",
+      group: "Firebase",
+      match: "firebase",
+      name: "Search in Docs",
+      url: "https://firebase.google.com/s/results?q=%s",
+    },
+    {
+      id: "google-cloud-homepage",
+      group: "Google Cloud",
+      match: "google cloud",
+      name: "Homepage",
+      url: "https://cloud.google.com",
+    },
+    {
+      id: "google-cloud-docs",
+      group: "Google Cloud",
+      match: "google cloud",
+      name: "Docs",
+      url: "https://cloud.google.com/docs",
+    },
+    {
+      id: "google-cloud-query",
+      group: "Google Cloud",
+      match: "google cloud",
+      name: "Search in Docs",
+      url: "https://cloud.google.com/s/results?q=%s",
+    },
+  ],
+}

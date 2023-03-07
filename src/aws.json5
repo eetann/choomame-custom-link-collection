@@ -1,0 +1,27 @@
+{
+  id: "aws",
+  name: "aws",
+  items: [
+    {
+      id: "aws-homepage",
+      group: "AWS",
+      match: "aws",
+      name: "Homepage",
+      url: "https://aws.amazon.com",
+    },
+    {
+      id: "aws-docs",
+      group: "AWS",
+      match: "aws",
+      name: "Docs",
+      url: "https://docs.aws.amazon.com",
+    },
+    {
+      id: "aws-query",
+      group: "AWS",
+      match: "aws",
+      name: "Search in Docs",
+      url: "https://docs.aws.amazon.com/search/doc-search.html?searchQuery=%s",
+    },
+  ],
+}
