@@ -45,6 +45,20 @@
       url: "https://developer.mozilla.org/ja/search?q=%s",
     },
     {
+      id: "keras-docs",
+      group: "Keras",
+      match: "keras",
+      name: "Docs🇯🇵",
+      url: "https://keras.io/ja/",
+    },
+    {
+      id: "keras-query",
+      group: "Keras",
+      match: "keras",
+      name: "Search in Docs🇯🇵",
+      url: "https://keras.io/ja/search.html?q=%s",
+    },
+    {
       id: "html-docs",
       group: "HTML",
       match: "html",
@@ -66,6 +80,13 @@
       url: "https://www.mysql.com/jp",
     },
     {
+      id: "php-docs",
+      group: "PHP",
+      match: "php",
+      name: "Docs🇯🇵",
+      url: "https://www.php.net/manual/ja/",
+    },
+    {
       id: "react-homepage",
       group: "React",
       match: "react",
@@ -80,6 +101,20 @@
       url: "https://ja.reactjs.org/docs/getting-started.html",
     },
     {
+      id: "ruby-homepage",
+      group: "Ruby",
+      match: "ruby",
+      name: "Homepage🇯🇵",
+      url: "https://www.ruby-lang.org/ja/",
+    },
+    {
+      id: "ruby-docs",
+      group: "Ruby",
+      match: "ruby",
+      name: "Docs🇯🇵",
+      url: "https://www.ruby-lang.org/ja/documentation/",
+    },
+    {
       id: "rust-homepage",
       group: "Rust",
       match: "rust",
@@ -92,6 +127,13 @@
       match: "swift",
       name: "Docs🇯🇵",
       url: "https://www.swiftlangjp.com",
+    },
+    {
+      id: "tex-wiki",
+      group: "TeX",
+      match: "tex|latex",
+      name: "Wiki",
+      url: "https://texwiki.texjp.org",
     },
     {
       id: "twitter-developer-platform-homepage",
