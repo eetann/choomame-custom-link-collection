@@ -31,6 +31,13 @@
       url: "https://developer.mozilla.org/en-US/search?q=%s",
     },
     {
+      id: "developersio-homepage",
+      group: "DevelopersIO",
+      match: "devio|aws|developersio|クラメソ",
+      name: "Top page",
+      url: "https://dev.classmethod.jp/",
+    },
+    {
       id: "developersio-query",
       group: "DevelopersIO",
       match: "devio|aws|developersio|クラメソ",
@@ -122,6 +129,20 @@
       url: "https://keras.io/ja/search.html?q=%s",
     },
     {
+      id: "hatebu-homepage",
+      group: "はてなブックマーク",
+      match: "はてな(ブックマーク)?|はて(ぶ|ブ)",
+      name: "Top page",
+      url: "https://b.hatena.ne.jp",
+    },
+    {
+      id: "hatebu-query",
+      group: "はてなブックマーク",
+      match: "hatena|はてな|はてぶ|",
+      name: "検索",
+      url: "https://b.hatena.ne.jp/q/%s?target=text",
+    },
+    {
       id: "html-docs",
       group: "HTML",
       match: "html",
@@ -197,6 +218,20 @@
       match: "php",
       name: "Docs🇯🇵",
       url: "https://www.php.net/manual/ja/",
+    },
+    {
+      id: "paiza-homepage",
+      group: "paiza開発日誌",
+      match: "paiza",
+      name: "Top page",
+      url: "https://paiza.hatenablog.com",
+    },
+    {
+      id: "pepabo-tech-portal-homepage",
+      group: "Pepabo Tech Portal",
+      match: "pepabo|ペパボ",
+      name: "Top page",
+      url: "https://tech.pepabo.com",
     },
     {
       id: "python-homepage",
@@ -408,6 +443,20 @@
       match: "zig",
       name: "Homepage🇯🇵",
       url: "https://ziglang.org/ja/",
+    },
+    {
+      id: "zozo-techblog-homepage",
+      group: "ZOZO TECH BLOG",
+      match: "zozo",
+      name: "Top page",
+      url: "https://techblog.zozo.com",
+    },
+    {
+      id: "zozo-techblog-query",
+      group: "ZOZO TECH BLOG",
+      match: "zozo",
+      name: "検索",
+      url: "https://techblog.zozo.com/search?q=%s",
     },
   ],
 }
