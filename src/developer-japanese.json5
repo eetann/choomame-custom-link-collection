@@ -31,6 +31,13 @@
       url: "https://developer.mozilla.org/en-US/search?q=%s",
     },
     {
+      id: "developersio-query",
+      group: "DevelopersIO",
+      match: "devio|aws|developersio|クラメソ",
+      name: "Search in DevelopersIO",
+      url: "https://dev.classmethod.jp/search?q=%s",
+    },
+    {
       id: "figma-homepage",
       group: "Figma",
       match: "figma",
@@ -148,6 +155,20 @@
       match: "matlab",
       name: "Search in Docs🇯🇵",
       url: "https://www.mathworks.com/support/search.html?q=%s",
+    },
+    {
+      id: "mdn-web-docs-docs",
+      group: "MDN Web Docs",
+      match: "mdn",
+      name: "Docs🇯🇵",
+      url: "https://developer.mozilla.org/ja/docs/Web",
+    },
+    {
+      id: "mdn-web-docs-query",
+      group: "MDN Web Docs",
+      match: "mdn",
+      name: "Search in Docs🇯🇵",
+      url: "https://developer.mozilla.org/ja/search?q=%s",
     },
     {
       id: "mysql-homepage",
@@ -311,6 +332,20 @@
       url: "https://vim-jp.org",
     },
     {
+      id: "vite-homepage",
+      group: "Vite",
+      match: "vite",
+      name: "Homepage🇯🇵",
+      url: "https://ja.vitejs.dev",
+    },
+    {
+      id: "vite-docs",
+      group: "Vite",
+      match: "vite",
+      name: "Docs🇯🇵",
+      url: "https://ja.vitejs.dev/guide/",
+    },
+    {
       id: "vivaldi-homepage",
       group: "Vivaldi",
       match: "vivaldi",
@@ -368,11 +403,11 @@
       enable: false,
     },
     {
-      id: "developersio-query",
-      group: "DevelopersIO",
-      match: "devio|aws|developersio|クラメソ",
-      name: "Search in DevelopersIO",
-      url: "https://dev.classmethod.jp/search?q=%s",
+      id: "zig-homepage",
+      group: "Zig",
+      match: "zig",
+      name: "Homepage🇯🇵",
+      url: "https://ziglang.org/ja/",
     },
   ],
 }
