@@ -50,6 +50,8 @@ The registered JSON5 is automatically fetched and updated about once a day.
 
 - [For Developer](https://raw.githubusercontent.com/eetann/choomame-custom-link-collection/main/src/developer.json5)
 - [For Japanese Developer](https://raw.githubusercontent.com/eetann/choomame-custom-link-collection/main/src/developer-japanese.json5)
+- [AWS](https://raw.githubusercontent.com/eetann/choomame-custom-link-collection/main/src/aws.json5)
+- [Google Cloud](https://raw.githubusercontent.com/eetann/choomame-custom-link-collection/main/src/google-cloud.json5)
 
 ## For Collection developers
 

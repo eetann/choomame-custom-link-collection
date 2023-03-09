@@ -138,7 +138,7 @@
     {
       id: "hatebu-query",
       group: "はてなブックマーク",
-      match: "hatena|はてな|はてぶ|",
+      match: "はてな(ブックマーク)?|はて(ぶ|ブ)",
       name: "検索",
       url: "https://b.hatena.ne.jp/q/%s?target=text",
     },
