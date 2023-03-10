@@ -157,6 +157,13 @@
       url: "https://developer.mozilla.org/ja/search?q=%s",
     },
     {
+      id: "ics-media-homepage",
+      group: "ICS MEDIA",
+      match: "ics(\\s?media)?",
+      name: "Top page",
+      url: "https://ics.media",
+    },
+    {
       id: "matlab-homepage",
       group: "MATLAB",
       match: "matlab",

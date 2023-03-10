@@ -53,6 +53,8 @@ The registered JSON5 is automatically fetched and updated about once a day.
 - [AWS](https://raw.githubusercontent.com/eetann/choomame-custom-link-collection/main/src/aws.json5)
 - [Google Cloud](https://raw.githubusercontent.com/eetann/choomame-custom-link-collection/main/src/google-cloud.json5)
 
+Please note that there is a bias in the links listed.
+
 ## For Collection developers
 
 The components of Custom Link Collection are as follows.

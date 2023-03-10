@@ -367,6 +367,20 @@
       url: "https://developers.google.com/apps-script",
     },
     {
+      id: "graphql-homepage",
+      group: "GraphQL",
+      match: "graphql",
+      name: "Homepage",
+      url: "https://graphql.org",
+    },
+    {
+      id: "graphql-docs",
+      group: "GraphQL",
+      match: "graphql",
+      name: "Docs",
+      url: "https://graphql.org/learn/",
+    },
+    {
       id: "html-docs",
       group: "HTML",
       match: "html",
