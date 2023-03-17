@@ -395,6 +395,13 @@
       url: "https://developer.mozilla.org/en-US/search?q=%s",
     },
     {
+      id: "husky-docs",
+      group: "husky",
+      match: "husky",
+      name: "Docs",
+      url: "https://typicode.github.io/husky/#/",
+    },
+    {
       id: "i3-homepage",
       group: "i3",
       match: "i3",
